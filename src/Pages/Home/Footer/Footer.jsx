@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaTwitter, FaVoicemail, FaYoutube } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaVoicemail, FaYoutube } from 'react-icons/fa';
 import logo from '../../../assets/img/wheelss.jpg';
 // import logo from '../../../assets/img/wheels.png';
 
@@ -24,6 +24,9 @@ const Footer = () => {
               </a>
               <a href="https://support.google.com/phoneapp/answer/2811844?hl=en">
                 <FaVoicemail></FaVoicemail>
+              </a>
+              <a href="https://www.linkedin.com/in/ashraful-hider-b53b5b193/">
+                <FaLinkedin></FaLinkedin>
               </a>
               
               
