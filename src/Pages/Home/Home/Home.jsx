@@ -1,5 +1,6 @@
 // import React from 'react';
 
+import Banner from "../Banner/Banner";
 import Footer from "../Footer/Footer";
 import Gallery from "../Gallery/Gallery";
 import OffSale from "../OffSale/OffSale";
@@ -9,11 +10,12 @@ const Home = () => {
     return (
         <div >
             <div className="mx-auto px-4 max-w-7xl">
+                <Banner></Banner>
                 <Gallery></Gallery>
-                <OffSale></OffSale>
+                {/* <OffSale></OffSale> */}
                 <UserReview></UserReview>
             </div>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     );
 };

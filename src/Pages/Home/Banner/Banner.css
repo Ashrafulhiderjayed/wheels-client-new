@@ -1,0 +1,14 @@
+
+
+.background {
+    /* background-image: url('https://wallpapercave.com/wp/wp7309115.jpg'); */
+    background-image: url('https://i.ibb.co/M7WmCxh/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+}

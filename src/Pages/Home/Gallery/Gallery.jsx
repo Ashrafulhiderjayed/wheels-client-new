@@ -36,7 +36,7 @@ const Gallery = () => {
 
   return (
     <>
-    <h1 className="font-CreteRound text-center text-primary font-extrabold text-7xl my-8">Gallery</h1>
+    <h1 className="font-CreteRound text-center text-primary font-extrabold text-6xl my-8">Gallery</h1>
     <div className="w-full p-5 pb-10 mb-10 gap-5 columns-3 space-y-5">
       {images.map((image) => (
         <img

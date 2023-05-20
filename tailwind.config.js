@@ -14,6 +14,9 @@ export default {
       fontFamily:{
         CreteRound: ['Crete Round', 'serif'],
       },
+      backgroundImage:{
+        'bannerImg': "url('https://i.ibb.co/M7WmCxh/banner.jpg')",
+      }
     },
   },
   plugins: [require('daisyui')],
