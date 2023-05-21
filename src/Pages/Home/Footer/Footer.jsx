@@ -56,7 +56,8 @@ const Footer = () => {
             <a className="link link-hover">Cookie policy</a>
           </div>
         </footer>
-        <p className='text-center font-semibold p-4'>&copy; 2023 WHEELS, Inc. All rights reserved.</p>
+        <hr />
+        <p className='text-center font-medium  p-5'>&copy; 2023 WHEELS, Inc. All rights reserved.</p>
         </section>
     );
 };

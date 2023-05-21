@@ -1,6 +1,7 @@
 // import React from 'react';
 
 import Banner from "../Banner/Banner";
+import ExtraSection2 from "../ExtraSection2/ExtraSection2";
 import Footer from "../Footer/Footer";
 import Gallery from "../Gallery/Gallery";
 import OffSale from "../OffSale/OffSale";
@@ -13,6 +14,7 @@ const Home = () => {
                 <Banner></Banner>
                 <Gallery></Gallery>
                 {/* <OffSale></OffSale> */}
+                <ExtraSection2></ExtraSection2>
                 <UserReview></UserReview>
             </div>
             {/* <Footer></Footer> */}
