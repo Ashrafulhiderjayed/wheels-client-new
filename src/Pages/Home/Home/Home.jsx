@@ -3,9 +3,9 @@
 import { Helmet } from "react-helmet-async";
 import Banner from "../Banner/Banner";
 import ExtraSection2 from "../ExtraSection2/ExtraSection2";
-import Footer from "../Footer/Footer";
+// import Footer from "../Footer/Footer";
 import Gallery from "../Gallery/Gallery";
-import OffSale from "../OffSale/OffSale";
+// import OffSale from "../OffSale/OffSale";
 import UserReview from "../UserReview/UserReview";
 import ShopByCategory from "../ShopByCategory/ShopByCategory";
 

@@ -20,18 +20,18 @@ const ShopByCategory = () => {
 
     return (
         <div className='pt-16'>
-            <h1 className='text-3xl font-bold text-center'>Shop By Category</h1>
+            <h1 className="font-CreteRound text-center text-primary font-extrabold text-5xl my-8">Shop By Category</h1>
 
             <div className='flex justify-center py-5 gap-5 font-semibold items-center text-lg'>
                 <div onClick={() => handleTabClick('Baby')} className={`cursor-pointer ${
-                activeTab == "Baby" ? "bg-[#757EFA] text-white p-1 rounded-md" : ""
-              }`}>Baby Dolls</div>
+                activeTab == "Baby" ? "bg-customNavy text-white p-2 rounded-md" : ""
+              }`}>sports car</div>
                 <div onClick={() => handleTabClick('Barbie')} className={`cursor-pointer ${
-                activeTab == "Barbie" ? " bg-[#757EFA] text-white p-1 rounded-md" : ""
-              }`}>Barbie Dolls</div>
+                activeTab == "Barbie" ? "bg-customNavy text-white p-2 rounded-md" : ""
+              }`}>fire truck</div>
                 <div onClick={() => handleTabClick('American')} className={`cursor-pointer${
-                activeTab == "American" ? " bg-[#757EFA] text-white p-1 rounded-md" : ""
-              }`}>American Girls</div>
+                activeTab == "American" ? " bg-customNavy text-white p-2 rounded-md" : ""
+              }`}>police car</div>
             </div>
             <div className='grid md:grid-cols-3 gap-5 '>
                 {

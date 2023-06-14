@@ -10,6 +10,7 @@ export default {
         primary: 'Crimson',
         primary2: '#d81b60',
         lightRed: '#FF0066',
+        customNavy: '#38A2D7',
       },
       fontFamily:{
         CreteRound: ['Crete Round', 'serif'],
