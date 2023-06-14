@@ -7,6 +7,7 @@ import Footer from "../Footer/Footer";
 import Gallery from "../Gallery/Gallery";
 import OffSale from "../OffSale/OffSale";
 import UserReview from "../UserReview/UserReview";
+import ShopByCategory from "../ShopByCategory/ShopByCategory";
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
                 <Banner></Banner>
                 <Gallery></Gallery>
                 {/* <OffSale></OffSale> */}
+                <ShopByCategory></ShopByCategory>
                 <ExtraSection2></ExtraSection2>
                 <UserReview></UserReview>
             </div>

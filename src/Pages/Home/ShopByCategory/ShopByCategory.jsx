@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import CategoryDetails from '../../CategoryDetails/CategoryDetails';
 
 const ShopByCategory = () => {
     const [toys, setToys] = useState([]);
@@ -34,7 +35,7 @@ const ShopByCategory = () => {
             </div>
             <div className='grid md:grid-cols-3 gap-5 '>
                 {
-                    toys.map(toy => <CategoryToy key={toy._id} toy={toy}></CategoryToy>)
+                    toys.map(toy => <CategoryDetails key={toy._id} toy={toy}></CategoryDetails>)
                 }
             </div>
         </div>
