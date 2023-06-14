@@ -1,4 +1,3 @@
-import { FaCar } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/img/wheelss.jpg'
 

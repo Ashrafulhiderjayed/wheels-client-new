@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-// import img from '../../assets/images/login/login.svg'
 import { useContext } from 'react';
 import { AuthContext } from '../../../Providers/AuthProvider';
 
@@ -48,7 +47,7 @@ const Login = () => {
                                 <input className="btn bg-primary" type="submit" value="Login" />
                             </div>
                         </form>
-                        <p className='my-4 text-center'>New to Car Doctors <Link className='text-yellow-500 font-bold' to="/signup">Sign Up</Link> </p>
+                        <p className='my-4 text-center'>New to <span className='font-CreteRound mr-2'>WHEELS?</span> <Link className='text-yellow-500 font-bold' to="/signup">Sign Up</Link> </p>
                     </div>
                 </div>
             </div>

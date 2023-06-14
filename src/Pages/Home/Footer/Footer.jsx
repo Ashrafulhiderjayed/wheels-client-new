@@ -3,6 +3,7 @@ import logo from '../../../assets/img/wheelss.jpg';
 // import logo from '../../../assets/img/wheels.png';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
     return (
         <section className=' bg-primary text-white'>
         <footer className="font-CreteRound footer mt-12 p-10">
@@ -57,7 +58,7 @@ const Footer = () => {
           </div>
         </footer>
         <hr />
-        <p className='text-center font-medium  p-5'>&copy; 2023 WHEELS, Inc. All rights reserved.</p>
+        <p className='text-center font-medium  p-5'>&copy; {currentYear} WHEELS, Inc. All rights reserved.</p>
         </section>
     );
 };

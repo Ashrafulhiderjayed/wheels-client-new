@@ -1,5 +1,6 @@
 // import React from 'react';
 
+import { Helmet } from "react-helmet-async";
 import Banner from "../Banner/Banner";
 import ExtraSection2 from "../ExtraSection2/ExtraSection2";
 import Footer from "../Footer/Footer";
@@ -10,6 +11,9 @@ import UserReview from "../UserReview/UserReview";
 const Home = () => {
     return (
         <div >
+            <Helmet>
+                <title>WHEELS | Home</title>
+            </Helmet>
             <div className="mx-auto px-4 max-w-7xl">
                 <Banner></Banner>
                 <Gallery></Gallery>
