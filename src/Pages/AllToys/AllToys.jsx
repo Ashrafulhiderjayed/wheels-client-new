@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import './AllToys.css'
 import { AuthContext } from "../../Providers/AuthProvider";
 import { Helmet } from "react-helmet-async";
 
@@ -33,24 +33,24 @@ const handleSearch = () => {
       <Helmet>
         <title>WHEELS | All Toys</title>
       </Helmet>
-      <h1 className="font-CreteRound text-5xl text-yellow-600 font-bold text-center">All Toys</h1>
+      <h1 className="font-CreteRound text-5xl text-yellow-500 font-bold text-center">All Toys</h1>
       <div className="text-center">
         <input className="md:w-2/5 py-2 mt-5 outline-none border border-customNavy px-3 rounded-md " onChange={(event)=> setSearchText(event.target.value)} type="text" name="search" id="" />
-        <button onClick={handleSearch} className="bg-customNavy px-[22px] py-[9px] text-white rounded-md">Search</button>
+        <button onClick={handleSearch} className="bg-customNavy px-[22px] py-[9px] text-white font-bold rounded-md">Search</button>
       </div>
       <div>
         <div className="overflow-x-auto py-10">
           <table className="table table-zebra w-full">
-            {/* head */}
-            <thead>
+            
+            <thead >
               <tr>
-                <th></th>
-                <th>Toy Name</th>
-                <th>Seller Name</th>
-                <th>Sub-category</th>
-                <th>Price</th>
-                <th>Available Quantity</th>
-                <th>Action</th>
+                <th className="bg-yellow-400 font-extrabold"></th>
+                <th className="bg-yellow-400 font-extrabold">Toy Name</th>
+                <th className="bg-yellow-400 font-extrabold">Seller Name</th>
+                <th className="bg-yellow-400 font-extrabold">Sub-category</th>
+                <th className="bg-yellow-400 font-extrabold">Price</th>
+                <th className="bg-yellow-400 font-extrabold">Available Quantity</th>
+                <th className="bg-yellow-400 font-extrabold">Action</th>
               </tr>
             </thead>
             <tbody>
@@ -65,7 +65,7 @@ const handleSearch = () => {
                   <th className="text-center">{toy.quantity}</th>
                   <th>
                     <Link to={`/toy/${toy._id}`}>
-                    <button className="bg-customNavy px-[20px] py-[8px] text-white rounded-md">
+                    <button className="bg-customNavy px-80 py-2 text-white rounded-md">
                       View Details
                     </button>
                     </Link>
