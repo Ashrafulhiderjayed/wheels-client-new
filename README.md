@@ -17,8 +17,8 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ABOUT THIS PROJECT -->
+## About This Project
 
 * Used Core React, React Router, Context Api, Firebase for Authentication, Tailwind Css and DaisyUi to design the UI.
 
