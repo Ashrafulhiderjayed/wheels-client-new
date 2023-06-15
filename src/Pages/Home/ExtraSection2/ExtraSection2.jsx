@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaMoneyCheck, FaShippingFast,FaStarHalfAlt } from 'react-icons/fa';
 
 const ExtraSection2 = () => {
