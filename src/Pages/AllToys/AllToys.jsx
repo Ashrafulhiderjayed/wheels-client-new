@@ -63,7 +63,7 @@ const handleSearch = () => {
                   <th className="text-center">{toy.quantity}</th>
                   <th>
                     <Link to={`/toy/${toy._id}`}>
-                    <button className="bg-customNavy px-80 py-2 text-white rounded-md">
+                    <button className="bg-customNavy px-4 py-2 text-white rounded-md">
                       View Details
                     </button>
                     </Link>
