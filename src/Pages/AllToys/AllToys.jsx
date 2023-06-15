@@ -1,14 +1,12 @@
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import './AllToys.css'
-import { AuthContext } from "../../Providers/AuthProvider";
 import { Helmet } from "react-helmet-async";
 
 
 
 const AllToys = () => {
   const [allToys, setAllToys] = useState([]);
-  const {user} = useContext(AuthContext)
   const [searchText, setSearchText] = useState('')
   useEffect(() => {
     fetch(`https://car-toy-server-three.vercel.app/allToys`)

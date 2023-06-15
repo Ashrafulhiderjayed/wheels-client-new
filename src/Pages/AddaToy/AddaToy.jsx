@@ -144,9 +144,9 @@ const AddaToy = () => {
                 className="w-full py-1 outline-none border border-customNavy"
               >
                 <option value="">-- Select --</option>
-                <option value="Baby">Sports Car</option>
-                <option value="Barbie">Fire Car</option>
-                <option value="American">Police Car</option>
+                <option value="Sports">Sports Car</option>
+                <option value="Fire">Fire Car</option>
+                <option value="Police">Police Car</option>
               </select>
             </div>
           </div>

@@ -1,12 +1,24 @@
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/img/wheelss.jpg'
+import { useContext } from 'react';
+import { AuthContext } from '../../../Providers/AuthProvider';
 
 const Navbar = () => {
+  const {user, logOut} = useContext(AuthContext);
+
+  const handleLogOut = () => {
+    logOut().then().catch();
+  };
+
   const navItems = <>
   <li><Link to='/'>Home</Link></li>
   <li><Link to='/alltoys'>All Toys</Link></li>
-  <li><Link to='/mytoys'>My Toys</Link></li>
-  <li><Link to='/addaToy'>Add a Toy</Link></li>
+  {
+    user && <li><Link to='/mytoys'>My Toys</Link></li>
+  }
+  {
+    <li><Link to='/addaToy'>Add a Toy</Link></li>
+  }
   <li><Link to='/blogs'>Blogs</Link></li>
   </>
   return (
@@ -30,7 +42,25 @@ const Navbar = () => {
       </ul>
     </div>
     <div className="navbar-end">
-      <Link to="/login"><button className="btn bg-primary font-semibold">Login</button></Link>
+      {
+        user?. uid && (
+          <img
+          style={{ height: "40px", width: "40px", borderRadius: '50%' }}
+          src={user.photoURL}
+          alt="Profile Picture"
+          data-toggle="tooltip"
+          title={user.displayName}
+          className="border-2 border-primary mr-1"
+        />
+    )
+  }
+  {
+    user? (
+      <button onClick={handleLogOut} className="bg-primary2 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full">Sign Out</button>
+    ):
+    <Link to="/login">
+    <button className="bg-primary hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full">Login</button>
+  </Link>}
     </div>
   </div>
   );

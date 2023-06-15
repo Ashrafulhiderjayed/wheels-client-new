@@ -72,7 +72,7 @@ const Login = () => {
                   name="email"
                   type="email"
                   required
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -92,7 +92,7 @@ const Login = () => {
                   name="password"
                   type="password"
                   required
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-red-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -103,18 +103,18 @@ const Login = () => {
             <div>
               <button
                 type="submit"
-                className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="flex w-full justify-center rounded-md bg-primary px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
               >
                 Sign In
               </button>
             </div>
             <div className="flex justify-between items-center gap-4">
-              <div className="h-1 bg-indigo-600 w-full"></div>
+              <div className="h-1 bg-customNavy w-full"></div>
               or
-              <div className="h-1 bg-indigo-600 w-full"></div>
+              <div className="h-1 bg-customNavy w-full"></div>
             </div>
             <div>
-              <button onClick={handleGoogleLogin} className="flex justify-center items-center gap-2 border border-indigo-600 p-2 rounded-lg w-full hover:bg-indigo-300">
+              <button onClick={handleGoogleLogin} className="flex justify-center items-center gap-2 border border-customNavy p-2 rounded-lg w-full hover:bg-customNavy hover:text-white font-bold">
                 <FcGoogle></FcGoogle>
                 Sign in with Google
               </button>
@@ -126,7 +126,7 @@ const Login = () => {
             <Link to={"/register"}>
               <a
                 href="#"
-                className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+                className="font-semibold leading-6 text-customNavy hover:text-customNavy"
               >
                 Sign Up
               </a>
