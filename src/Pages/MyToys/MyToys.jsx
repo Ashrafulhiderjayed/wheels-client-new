@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { FaPencilAlt, FaArchive } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -65,7 +65,7 @@ const MyToys = () => {
   return (
     <div className="pb-52">
       <Helmet>
-        <title>ToyLand | My Toys</title>
+        <title>WHEELS | My Toys</title>
       </Helmet>
 
       <h1 className="text-5xl font-CreteRound font-bold text-center pt-16">My Toys</h1>

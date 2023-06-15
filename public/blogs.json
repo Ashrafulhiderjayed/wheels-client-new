@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Blog 1",
+      "description": "This is the description for Blog 1.",
+      "image": "https://example.com/blog1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Blog 2",
+      "description": "This is the description for Blog 2.",
+      "image": "https://example.com/blog2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Blog 3",
+      "description": "This is the description for Blog 3.",
+      "image": "https://example.com/blog3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Blog 4",
+      "description": "This is the description for Blog 4.",
+      "image": "https://example.com/blog4.jpg"
+    }
+  ]
+  
