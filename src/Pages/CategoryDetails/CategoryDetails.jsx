@@ -23,7 +23,7 @@ const CategoryDetails = ({ toy }) => {
                 ${toy.price}
               </span>
               <Link to={`/toy/${toy._id}`} >
-                <button  className="bg-[#757EFA] px-[20px] py-[8px] text-white rounded-md">
+                <button  className="bg-customNavy px-[20px] py-[8px] text-white rounded-md">
                   View Details
                 </button>
               </Link>

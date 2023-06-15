@@ -42,7 +42,7 @@ const AddaToy = () => {
           title: 'Success!',
           text: 'Toy Added Successfully',
           icon: 'success',
-          confirmButtonText: 'Cool'
+          confirmButtonText: 'added'
         })
       }
     })

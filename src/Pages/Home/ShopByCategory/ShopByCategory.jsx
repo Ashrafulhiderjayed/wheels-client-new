@@ -10,7 +10,7 @@ const ShopByCategory = () => {
     }
 
     useEffect(()=>{
-        fetch(`https://car-toy-server-three.vercel.app//toys/${activeTab}`)
+        fetch(`https://car-toy-server-three.vercel.app/toys/${activeTab}`)
         .then(res => res.json())
         .then(data => {
             setToys(data)
