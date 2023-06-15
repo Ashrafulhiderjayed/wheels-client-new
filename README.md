@@ -30,13 +30,13 @@ This project is a toy store website built with React, React Router, Context API,
 
 * All Toys page: The All Toys page shows all the toys that have been added by all users.
 
-* Single toy details page: The single toy details page shows information about a specific toy, such as its picture, name, seller, price, rating, available quantity, and detail description.
+* Single toy details page: This is a private route. This page shows information about a specific toy, such as its picture, name, seller, price, rating, available quantity, and detail description.
 
-* Add a Toy page: The Add a Toy page allows users to add new toys to the website.
+* Add a Toy page: This is a private route. This page allows users to add new toys to the website.
 
-* My Toys page: The My Toys page shows all the toys that the logged-in user has added.
+* My Toys page: The My Toys page shows all the toys that the logged-in user has added. If a user logs in, they will see the My Toys page
 
-* 404 page: The 404 page displays a jpg/gif and a "Back to home" button.
+* 404 page: The 404 page displays an error message and a "Back to home" button.
 
 
 
