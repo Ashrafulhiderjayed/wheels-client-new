@@ -18,6 +18,7 @@ const CategoryDetails = ({ toy }) => {
         <div className="max-w-2xl mx-auto">
         <div className="bg-white shadow-md rounded-lg max-w-sm h-96 flex flex-col justify-between ">
           <div className="flex justify-center">
+            {/* npm package */}
           <Tilt options={defaultOptions} style={{ }}>
             <img className="rounded-t-lg p-8 h-60" src={toy.picture} alt="product image" />
           </Tilt>
