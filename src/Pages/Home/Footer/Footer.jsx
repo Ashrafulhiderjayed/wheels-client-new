@@ -1,16 +1,24 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaVoicemail, FaYoutube } from 'react-icons/fa';
 import logo from '../../../assets/img/wheelss.jpg';
 // import logo from '../../../assets/img/wheels.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
+  useEffect(() => {
+    AOS.init({duration: 3000});
+  }, [])
+
     return (
         <section className=' bg-primary text-white'>
         <footer className="font-CreteRound footer mt-12 p-10">
           <div>
-            <img className='h-16 bg-red-500 rounded-lg' src={logo} alt="" />
+            <img className='h-16 bg-red-500 rounded-lg' src={logo} alt="" data-aos="fade-left"/>
             <p>WHEELS Ltd.<br/>Providing reliable and affordable toy since 1992</p>
-            <section className='flex gap-4'>
+            <section className='flex gap-4' data-aos="fade-up" data-aos-delay="50">
               <a href="https://www.facebook.com/ashraful.hider/">
                 <FaFacebook></FaFacebook>
               </a>

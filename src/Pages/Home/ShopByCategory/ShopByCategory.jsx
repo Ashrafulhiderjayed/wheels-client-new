@@ -18,8 +18,8 @@ const ShopByCategory = () => {
     },[activeTab])
 
     return (
-        <div className='pt-16'>
-            <h1 className="font-CreteRound text-center text-primary font-extrabold text-5xl my-8">Shop By Category</h1>
+        <div className=''>
+            <h1 className="text-center text-primary font-bold lg:text-6xl md:text-3xl my-10 p-2 font-CreteRound">Shop By Category</h1>
 
             <div className='flex justify-center py-5 gap-5 font-semibold items-center text-lg'>
                 <div onClick={() => handleTabClick('Sports')} className={`cursor-pointer ${

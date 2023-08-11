@@ -7,7 +7,7 @@ import { Helmet } from "react-helmet-async";
 
 const AllToys = () => {
   const [allToys, setAllToys] = useState([]);
-  const [searchText, setSearchText] = useState('')
+  const [searchText, setSearchText] = useState('');
   useEffect(() => {
     fetch(`https://car-toy-server-three.vercel.app/allToys`)
       .then((res) => res.json())

@@ -4,7 +4,7 @@ import "./UserReview.css";
 const UserReview = () => {
   return (
     <div className="container mx-auto">
-    <h1 className="text-center text-primary font-extrabold text-7xl sm:text-4xl my-10 p-2 font-CreteRound">Customer Review</h1>
+    <h1 className="text-center text-primary font-bold lg:text-6xl md:text-3xl my-10 p-2 font-CreteRound">Customer Review</h1>
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-white">
       <div className="card review h-96 p-7 text-center">
         <h2 className="text-3xl font-bold mb-14">Tamim</h2>

@@ -8,6 +8,7 @@ import Gallery from "../Gallery/Gallery";
 // import OffSale from "../OffSale/OffSale";
 import UserReview from "../UserReview/UserReview";
 import ShopByCategory from "../ShopByCategory/ShopByCategory";
+import SignUp10 from "../SignUp10/SignUp10";
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
                 {/* <OffSale></OffSale> */}
                 <ShopByCategory></ShopByCategory>
                 <ExtraSection2></ExtraSection2>
+                <SignUp10></SignUp10>
                 <UserReview></UserReview>
             </div>
             {/* <Footer></Footer> */}
