@@ -6,6 +6,9 @@ import { Helmet } from "react-helmet-async";
 const AllToys = () => {
   const [allToys, setAllToys] = useState([]);
   const [searchText, setSearchText] = useState("");
+  const [itemsPerPage, setItemsPerPage] = useState(10);
+  const [currentPage, setCurrentPage] = useState(1);
+  
   useEffect(() => {
     fetch(`https://car-toy-server-three.vercel.app/allToys`)
       .then((res) => res.json())
@@ -86,7 +89,10 @@ const AllToys = () => {
         </div>
       </div>
       <div className="text-center">
-        hisalkj
+        <div className="join">
+          <button className="join-item btn btn-outline">Previous page</button>
+          <button className="join-item btn btn-outline">Next</button>
+        </div>
         <select className="select select-primary max-w-xs">
           {/* <option disabled selected>What is the best TV show?</option> */}
           <option value="10">10</option>
